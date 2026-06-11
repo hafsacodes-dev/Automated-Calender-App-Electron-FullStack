@@ -1,5 +1,5 @@
 # Automated-Calender-App-Electron-FullStack
-A fun twist on a mini desktop calender app, built using the Electron Framework
+A fun twist on a mini desktop calender widget/app, built using the Electron Framework
 
 
 
