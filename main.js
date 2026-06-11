@@ -8,7 +8,7 @@ function createWindow() {
         maximizable: false,
         fullscreenable: false,
         frame: false,
-        transparent: tr,
+        transparent: true,
         webPreferences: {
             contextIsolation: true
         }
