@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+    -webkit-app-region: drag;
+    background-image: url("assets/bg-png.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 13.375rem;
+    padding: 1rem 1.0625rem;
+}
+
+button,
+input,
+textarea,
+select {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
+
+.title {
+
+    display: flex;
+    width: 157px;
+    padding: 0.25rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6.25rem;
+    border: 1px solid #76b0c6;
+    background: rgba(127, 168, 189, 1);
+
+
+
+
+    color: var(--white, #f6fee4);
+
+    font-size: 1rem;
+    font-weight: 900;
+    color: #f6fee4;
+    line-height: normal;
+    font-family: 'Pixelify Sans';
+
+}
+
+#calender {
+    display: flex;
+    width: 11.25rem;
+    height: 10.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    background-image: url("assets/inner-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#day {
+    color: #ffd700;
+    text-align: center;
+    font-family: Pixeboy;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: 0.45rem;
+    margin: 0;
+    padding: 0;
+}
+
+#month {
+    color: #ffd700;
+    text-align: center;
+    font-family: Pixeboy;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: 0.45rem;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
